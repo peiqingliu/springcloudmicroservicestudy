@@ -1,0 +1,21 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: microservice-discovery-eureka
+
+eureka:
+  instance:
+    hostname: discovery  #指定改eureka的主机名
+  client:
+    fetch-registry: false
+    register-with-eureka: false  #是否注册到其他euraka上面
+  server:
+    enable-self-preservation: false #Eureka自我保护机制以及心跳周期长会遇到 Eureka不剔除已关停的节点的问题，默认打开状态。建议生产环境打开此配置
+    eviction-interval-timer-in-ms: 4000
+security:
+  basic:
+    enabled: true
+  user:
+    name: liupeiqing
+    password: 3bB5ivE8

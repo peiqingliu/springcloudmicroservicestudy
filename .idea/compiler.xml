@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-api-gateway" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-server" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-consumer-movie-feign-with-hystrix" />
+        <module name="microservice-consumer-movie-feign-with-hystrix-stream" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-with-hystrix" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-provider-user002" />
+        <module name="microservice-provider-user003" />
+        <module name="microserviceapigateway" />
+        <module name="microserviceconfigclient" />
+        <module name="microserviceconfigserver" />
+        <module name="microserviceconsumermoviefeign" />
+        <module name="microserviceconsumermoviefeignwithhystrix" />
+        <module name="microserviceconsumermoviefeignwithhystrixstream" />
+        <module name="microserviceconsumermovieribbon" />
+        <module name="microserviceconsumermovieribbonwithhystrix" />
+        <module name="microservicediscoveryeureka" />
+        <module name="microserviceprovideruser" />
+        <module name="microserviceprovideruser002" />
+        <module name="microserviceprovideruser003" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
